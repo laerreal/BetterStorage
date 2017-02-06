@@ -345,4 +345,15 @@ $with
 $end
 
 
-
+$start
+$replace
+			set pos [vector_add [get_pos this] "[expr {[lindex $slotx [expr {$i % 6}]] + [random -0.15 0.15]}] [lindex $sloty [expr {$i / 6}]] 0"]
+$with
+			set item [lindex [lindex $slotlist $i] 0]
+			if {[lsearch {Holzkiepe_ Grosse_Holzkiepe_ Ring_Der_Erde Ring_Der_Luft Ring_Der_Magie Ring_Des_Feuers Ring_Des_Lebens Ring_Des_Wassers Ring_Des_Wissens} [get_objclass $item]] > -1} {
+				set pos [vector_add [get_pos this] "[expr {[lindex $slotx [expr {$i % 6}]] + [random -0.15 0.15]}] [expr {[lindex $sloty [expr {$i / 6}]] - 0.4}] -0.2"]
+			} else {
+				set pos [vector_add [get_pos this] "[expr {[lindex $slotx [expr {$i % 6}]] + [random -0.15 0.15]}] [lindex $sloty [expr {$i / 6}]] 0"]
+			}
+			
+$end

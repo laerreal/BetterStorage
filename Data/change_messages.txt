@@ -82,6 +82,14 @@ it "immagazzinare pozioni"
 nl "drankjes opslaan"
 es "Almacenar elixires"
 
+## "_Ringe_einlagern"
+en "store rings"
+de "Ringe einlagern"
+fr "Stocker anneaux"
+it "immagazzinare anelli"
+nl "ringen opslaan"
+es "Almacenar anillos"
+
 
 $end
 
