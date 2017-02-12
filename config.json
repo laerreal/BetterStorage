@@ -1,0 +1,49 @@
+{
+	"version" : "1.0",
+	"author" : "cech12, Chris1231, Zed2000",
+	
+	"name" :  {
+		"en" : "BetterStorage",
+		"de" : "Lagerverbesserung"
+	},
+	"description" : {
+		"en" : "More storage room; items seperately selectable; store weapons, tools and panniers",
+		"de" : "Größeres Lager; Rohstoffe einzeln auswählbar; Waffen, Werkzeuge, Holzkiepen sind einlagerbar"
+	},
+	
+	"links" : {
+		"download" : "https://github.com/DigglesMods/BetterStorage/releases",
+		"wiki" : "https://github.com/DigglesMods/BetterStorage/wiki"
+	},
+	
+	"settings" : [
+		{
+			"id" : "ITEMS_PER_SLOT",
+			"type" : "int",
+			"default" : 9,
+			"min" : 1,
+			"max" : 20,
+			"name" :  {
+				"en" : "Items per slot",
+				"de" : "Items pro Slot"
+			},
+			"description" : {
+				"en" : "Count of items per storage slot",
+				"de" : "Anzahl der Items pro Lager-Slot"
+			}
+		},
+		{
+			"id" : "ADD_STORE_ROW",
+			"type" : "bool",
+			"default" : true,
+			"name" :  {
+				"en" : "Add store row",
+				"de" : "Regal hinzufügen"
+			},
+			"description" : {
+				"en" : "Add upper store row",
+				"de" : "Oberes Lagerregal hinzufügen"
+			}
+		}
+	]
+}
