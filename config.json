@@ -20,7 +20,7 @@
 		{
 			"id" : "ITEMS_PER_SLOT",
 			"type" : "int",
-			"default" : 9,
+			"default" : 3,
 			"min" : 1,
 			"max" : 20,
 			"name" :  {
@@ -35,7 +35,7 @@
 		{
 			"id" : "ADD_STORE_ROW",
 			"type" : "bool",
-			"default" : true,
+			"default" : false,
 			"name" :  {
 				"en" : "Add store row",
 				"de" : "Regal hinzufügen"
